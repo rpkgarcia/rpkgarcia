@@ -8,9 +8,9 @@ navbar:
     - text: "Teaching"
       href: Teaching.html
     - text: "Projects"
-      href: journal.html
+      href: Journal.html
 output_dir: "docs"
 output:
   html_document:
-    theme: readable
     css: style.css
+    theme: readable
