@@ -3,13 +3,16 @@
     "path": "~/Documents/GitHub/rpkgarcia/about.Rmd",
     "project_path": "about.Rmd",
     "type": "r_markdown",
-    "hash": "1732481516",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1658013550869.0,
     "source_on_save": false,
     "relative_order": 2,
-    "properties": {},
+    "properties": {
+        "cursorPosition": "1,7",
+        "scrollLine": "0"
+    },
     "folds": "",
     "lastKnownWriteTime": 1658013548,
     "encoding": "UTF-8",

@@ -3,22 +3,22 @@
     "path": "~/Documents/GitHub/rpkgarcia/Research.Rmd",
     "project_path": "Research.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "2766818504",
     "contents": "",
     "dirty": false,
     "created": 1658014180025.0,
     "source_on_save": false,
     "relative_order": 4,
     "properties": {
-        "cursorPosition": "19,0",
-        "scrollLine": "6"
+        "cursorPosition": "1,14",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1658019410,
+    "lastKnownWriteTime": 1658036590,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1658019410243,
+    "last_content_update": 1658036590530,
     "read_only": false,
     "read_only_alternatives": []
 }
