@@ -1,0 +1,138 @@
+
+
+/*----------------NAVBAR ---------------*/
+.navbar-default {
+    background-color: #49318b;
+    color: white;
+}
+
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.active>a, 
+a.dropdown-toggle:hover {
+  background-color: MediumPurple !important;
+  color: white;
+}
+
+
+/* Dropdown menu color */
+.navbar-default .active {
+  background-color: DarkPurple;
+  color: MediumPurple;
+}
+
+.nav.navbar-nav.navbar-right a {
+    color: white;
+}
+
+.nav.navbar-nav.navbar-right a:hover {
+    color: white;
+}
+
+.nav.navbar-nav.navbar-left {
+    color: white;
+}
+
+
+/* Change properties of the text on the right side */
+.navbar-brand {
+    color: white !important;
+}
+
+/* Dropdown menu color */
+.navbar-default .dropdown-menu {
+  background-color: Indigo;
+  color: MediumPurple;
+}
+
+/* Dropdown menu hover color */
+  .navbar-default .dropdown-menu>li>a:hover {
+    background-color: red;
+  }
+
+/* Navbar Links when hovered*/
+.navbar-default .dropdown-menu>.active>a
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav:hover, 
+.navbar-default .navbar-nav>li>a:hover, 
+a.navbar-brand:hover {
+  color: white;
+}
+
+
+
+
+
+/* -----------HERO IMAGE AT TOP OF PAGE -----------*/
+
+/* LARGE HERO IMAGE AT TOP OF PAGE*/
+
+.hero-image {
+    position: relative;
+    margin-bottom: 2em;
+    margin-top: -1em;
+    /* liner gradient tints the image darker for readability*/
+    background-image: linear-gradient( rgba(0,0,0,.2), rgba(0,0,0,.2) ), url(hero-navy.jpg); 
+    height: 400px;
+    background-size: cover;
+    background-color: #141c25f2;
+    background-position: center center;
+    display: flex; /* Change to `display: none` for no hero image */
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/iris.jpg"); 
+}
+
+.top-text {
+  position: relative;
+  font-size: 34px;
+  padding-bottom: 0.5em
+  text-transform: uppercase;
+  text-align: center;
+  display: block; /* Change to `display: none` for no top text */
+  color: #ffffff72;
+}
+
+.bottom-text {
+  position: relative;
+  letter-spacing: 0.065em;
+  line-height: 1em;
+  font-size: 68px;
+  text-transform: uppercase;
+  text-align: center;
+  display: block; /* Change to `display: none` for no bottom text */
+  color: #ffffff;
+  margin-bottom: 2.5rem;
+  font-weight: bold;
+}
+
+
+
+/* unvisited link */
+a:link {
+  color: RebeccaPurple;
+}
+
+/* visited link */
+a:visited {
+  color: pink;
+}
+
+/* mouse over link */
+a:hover {
+  color: lavender;
+}
+
+/* selected link */
+a:active {
+  color: red;
+}
+
+
+/* ----------- Font Sizes -----------*/
+p {
+  font-size: 18px;
+}
+
+.desc {
+  color: Grey;
+}
