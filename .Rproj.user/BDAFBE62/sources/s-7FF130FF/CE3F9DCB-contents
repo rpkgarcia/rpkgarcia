@@ -13,3 +13,4 @@ output_dir: "docs"
 output:
   html_document:
     theme: readable
+    css: style.css
