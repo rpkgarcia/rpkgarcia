@@ -114,7 +114,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: pink;
+  color: RebeccaPurple;
 }
 
 /* mouse over link */
@@ -124,7 +124,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: red;
+  color: pink;
 }
 
 
