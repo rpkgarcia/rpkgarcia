@@ -29,7 +29,7 @@ Location: Mathematical Analysis Research Corps - Claremont, CA
 
 ### Workshops 
 
-The majority of workshops were prepared and presented by myself. These workshops were created for a variety of audiences, including high, undergraduate and graduate students, faculty research groups, and professional groups. Many of these workshops were implemented in multiple times, with modifications for the specific settings. Some of these workshops were implemented as part of my positions above, but I have not listed any workshops/tutorials that are a part of courses I have taught or taken. Some of my workshop materials are readily available on my github account.  If there is one you would like but it is not there please send me an email.  In no particular order: 
+The majority of workshops were prepared and presented by myself. These workshops were created for a variety of audiences, including high school, undergraduate and graduate students, faculty research groups, and professional groups. Many of these workshops were implemented in multiple times, with modifications for the specific settings. Some of these workshops were implemented as part of my positions above, but I have not listed any workshops/tutorials that are a part of courses I have taught or taken. Some of my workshop materials are readily available on my github account.  If there is one you would like but it is not there please send me an email.  In no particular order: 
 
 **Coding Based Workshops**
 
@@ -50,3 +50,4 @@ The majority of workshops were prepared and presented by myself. These workshops
 - How to Handle Missing Data 
 - Nonparametric Testing Procedures 
 - Decision Trees
+- Fisher's Exact Test and Alternative Testing Procedures
