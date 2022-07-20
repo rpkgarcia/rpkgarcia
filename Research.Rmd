@@ -1,9 +1,12 @@
 ---
-title: "Hello"
+title: "Research"
 output: html_document
 ---
 
-# Research Interests 
+
+------------------------
+
+## Research Interests 
 
 - Dependent Data
 
@@ -19,13 +22,42 @@ output: html_document
 
 
 
-# Selected Research Projects
+## Selected Research Projects
 
-- Patrick, J., Haniyur, S., **Kurtz, R. P.**, Nakano, B. & Tse, L.(2016). [Solar Irradiance Covariance Modeling for Sacramento County](ResearchDocuments/RTG_1_Poster.pdf). Undergraduate research project funded by NSF. 
+- Pickerill, E. S., **Kurtz, R. P.**, Tharp, A., Guerrero Sanz, P., Begum, M., & Bernstein, D. A. (2019). [Pseudouridine synthase 7 impacts Candida albicans rRNA processing and morphological plasticity](ResearchDocuments/Yeast - 2019 - Pickerill - Pseudouridine synthase 7 impacts Candida albicans rRNA processing and morphological plasticity.pdf). *Yeast*, 36(11), 669-677.
 
 - **Kurtz, R. P.** (2018). [Reality Competition Programs: Are You In Or Are You Out?](ResearchDocuments/R Kurtz Final.pdf). Masters Thesis. 
 
-- Pickerill, E. S., **Kurtz, R. P.**, Tharp, A., Guerrero Sanz, P., Begum, M., & Bernstein, D. A. (2019). [Pseudouridine synthase 7 impacts Candida albicans rRNA processing and morphological plasticity](ResearchDocuments/Yeast - 2019 - Pickerill - Pseudouridine synthase 7 impacts Candida albicans rRNA processing and morphological plasticity.pdf). *Yeast*, 36(11), 669-677.
+- Patrick, J., Haniyur, S., **Kurtz, R. P.**, Nakano, B. & Tse, L.(2016). [Solar Irradiance Covariance Modeling for Sacramento County](ResearchDocuments/RTG_1_Poster.pdf). Undergraduate research project funded by NSF. 
+
+
+## Conference Contributions 
+
+- [NISS Graduate Student Conference](https://www.niss.org/events/2nd-annual-graduate-student-research-conference-niss-graduate-student-network-event) (2022, May)   
+    + Organizing Committee
+    + Oral Presentation: [*Alternative Time-Average Covariance Matrix Estimation Procedures*](https://rpkgarcia.shinyapps.io/NISSpresentation2022KurtzGarcia/#1)
+- [Women in Data Science](https://wids.cs.ucr.edu/), University of California Riverside (2022, Winter)    
+    + Workshop Presenter: Advanced Text Analysis in R
+- [Minds Datathon Conference](http://datasciminds.org/Datathon_2021.html), Orange County, CA (Fall 2021)   
+    + Plenary Speaker: *Decision Trees with the Iris Data*
+- [NISS Graduate Student Conference](https://www.niss.org/news/niss-graduate-student-network-convenes-two-day-research-conference) (2021, June)    
+    + Oral Presentation: *Recent Advances in Time-Average Covariance Matrix Estimation*
+    + Organizing Committee
+- [Minds Datathon Conference](http://datasciminds.org/datathon.html), Orange County, CA (2020, Fall) 
+    + Workshop Presenter: *Random Forests*
+- [Student Symposium](https://www.bsu.edu/about/administrativeoffices/sponsored-projects-administration/student-symposium), Ball State University (2018, Spring) 
+    + Oral Presentation: [*Are You In or Are You Out?*](ResearchDocuments/StudentSymposium.pdf)
+- [iidata Data Science Convention](https://statistics.ucdavis.edu/), University of California Davis (2016, May)
+    + Poster Presentation: [Solar Irradiance Covariance Modeling for Sacramento County](ResearchDocuments/RTG_1_Poster.pdf)
+
+## Conferences Attended 
+
+- [Women Working in Technology](https://womenworkingintechnology.org/home), Ball State University (2018, Spring)
+
+- [Rustbelt RNA Meeting](https://rustbeltrna.org/2017/), Indianapolis, IN (2017, Fall) 
+
+- [Women Working in Technology](https://womenworkingintechnology.org/home), Ball State University (2017, Spring)
+
 
 
 
