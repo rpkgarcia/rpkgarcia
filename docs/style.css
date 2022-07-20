@@ -124,7 +124,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: pink;
+  color: red;
 }
 
 
