@@ -7,7 +7,7 @@ navbar:
       href: Research.html
     - text: "Teaching"
       href: Teaching.html
-    - text: "Projects"
+    - text: "Consulting"
       href: Journal.html
 output_dir: "docs"
 output:

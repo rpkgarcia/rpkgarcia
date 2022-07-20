@@ -31,6 +31,9 @@ output: html_document
 - Patrick, J., Haniyur, S., **Kurtz, R. P.**, Nakano, B. & Tse, L.(2016). [Solar Irradiance Covariance Modeling for Sacramento County](ResearchDocuments/RTG_1_Poster.pdf). Undergraduate research project funded by NSF. 
 
 
+## Research/Travel Awards, Grants, and Funding
+
+
 ## Conference Contributions 
 
 - [NISS Graduate Student Conference](https://www.niss.org/events/2nd-annual-graduate-student-research-conference-niss-graduate-student-network-event) (2022, May)   

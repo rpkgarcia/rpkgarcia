@@ -28,9 +28,6 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -221,69 +218,6 @@ $(document).ready(function () {
 
 
 
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-
 
 </head>
 
@@ -291,16 +225,6 @@ div.tocify {
 
 
 <div class="container-fluid main-container">
-
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -330,7 +254,7 @@ div.tocify {
   <a href="Teaching.html">Teaching</a>
 </li>
 <li>
-  <a href="Journal.html">Projects</a>
+  <a href="Journal.html">Consulting</a>
 </li>
       </ul>
     </div><!--/.nav-collapse -->
@@ -353,13 +277,14 @@ div.tocify {
 <li><p><strong>Consultant</strong> (Sept 2019 - June 2020)<br />
 Location: GradQuant, University of California Riverside - Riverside, CA<br />
 <span class="desc">Responsible for holding quantitative consultations, and developing and presenting workshops for a variety of topics and programs. Assisted the Lead Consultant with the creation of resources and promotion of GradQuant through social media and on-campus events.</span></p></li>
-<li><p><strong>Graduate Student Researcher - Intern</strong> (Oct 2020 - Sept 2021) Location: Mathematical Analysis Research Corps - Claremont, CA<br />
+<li><p><strong>Graduate Student Researcher - Intern</strong> (Oct 2020 - Sept 2021)<br />
+Location: Mathematical Analysis Research Corps - Claremont, CA<br />
 <span class="desc">Consult on unique statistical and computational problems where solutions may result in publication. Work on long term projects both as a team and at an individual level. Interact with others that have a variety of different backgrounds, responsible for handling sensitive information. Prepare and present materials for a specialized audience</span></p></li>
 </ul>
 </div>
 <div id="workshops" class="section level3">
 <h3>Workshops</h3>
-<p>The majority of workshops were prepared and presented by myself. These workshops were created for a variety of audiences, including high school, undergraduate and graduate students, faculty research groups, and professional groups. Many of these workshops were implemented in multiple times, with modifications for the specific settings. Some of these workshops were implemented as part of my positions above, but I have not listed any workshops/tutorials that are a part of courses I have taught or taken. Some of my workshop materials are readily available on my github account. If there is one you would like but it is not there please send me an email. In no particular order:</p>
+<p>The majority of workshops were prepared and presented by myself. These workshops were created for a variety of audiences, including high school, undergraduate and graduate students, faculty research groups, and professional groups. Many of these workshops were implemented multiple times, with modifications for the specific setting and audience. Some of these workshops were implemented as part of my positions above, but I have not listed any workshops/tutorials that are a part of courses I have taught or taken. Some of my workshop materials are readily available on my github account. If there is one you would like but it is not there please send me an email. In no particular order:</p>
 <p><strong>Coding Based Workshops</strong></p>
 <ul>
 <li>An Introduction to the R Programming Language</li>
@@ -384,8 +309,6 @@ Location: GradQuant, University of California Riverside - Riverside, CA<br />
 
 
 
-</div>
-</div>
 
 </div>
 
@@ -418,35 +341,6 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
-<script>
-$(document).ready(function ()  {
-
-    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
-    $('.unlisted.unnumbered').addClass('toc-ignore')
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
