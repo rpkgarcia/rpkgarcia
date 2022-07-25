@@ -29,7 +29,7 @@ output:
 <img src="images/selfie_circle.jpg" width="300"/>
 
 
-<a href="https://github.com/rpkgarcia"><img src="images/logo/download.png" alt="Download My CV" style="width:32px;height:32px;"> Download My CV</a>
+<a href="CVKurtzGarciaMay22.pdf"><img src="images/logo/download.png" alt="Download My CV" style="width:32px;height:32px;"> Download My CV</a>
 <br>
 <br>
 <a href="https://github.com/rpkgarcia"><img src="images/logo/github.png" alt="HTML tutorial" style="width:32px;height:32px;">  GitHub</a>
