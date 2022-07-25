@@ -53,13 +53,16 @@ output: html_document
 - [NISS Graduate Student Conference](https://www.niss.org/events/2nd-annual-graduate-student-research-conference-niss-graduate-student-network-event) (2022, May)   
     + Oral Presentation: [*Alternative Time-Average Covariance Matrix Estimation Procedures*](https://rpkgarcia.shinyapps.io/NISSpresentation2022KurtzGarcia/#1)
     + Organizing Committee
+    + Session Chair
 - [Women in Data Science](https://wids.cs.ucr.edu/), University of California Riverside (2022, Winter)    
     + Workshop Presenter: *Advanced Text Analysis in R*
+    + Panelist 
 - [Minds Datathon Conference](http://datasciminds.org/Datathon_2021.html), Orange County, CA (Fall 2021)   
     + Plenary Speaker: *Decision Trees with the Iris Data*
 - [NISS Graduate Student Conference](https://www.niss.org/news/niss-graduate-student-network-convenes-two-day-research-conference) (2021, June)    
     + Oral Presentation: *Recent Advances in Time-Average Covariance Matrix Estimation*
     + Organizing Committee
+    + Session Chair
 - [Minds Datathon Conference](http://datasciminds.org/datathon.html), Orange County, CA (2020, Fall) 
     + Workshop Presenter: *Random Forests*
 - [Student Symposium](https://www.bsu.edu/about/administrativeoffices/sponsored-projects-administration/student-symposium), Ball State University (2018, Spring) 
