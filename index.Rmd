@@ -29,6 +29,9 @@ output:
 <img src="images/selfie_circle.jpg" width="300"/>
 
 
+<a href="https://github.com/rpkgarcia"><img src="images/logo/download.png" alt="Download My CV" style="width:32px;height:32px;"> Download My CV</a>
+<br>
+<br>
 <a href="https://github.com/rpkgarcia"><img src="images/logo/github.png" alt="HTML tutorial" style="width:32px;height:32px;">  GitHub</a>
 <br>
 <br>
@@ -36,7 +39,15 @@ output:
 
 **Pronouns**: <a href="https://out.ucr.edu/pronouns-matter">she/her</a> 
 
-**Contact:** rkurt001\@ucr.edu 
+
+**Contact:** 
+
+rkurt001\@ucr.edu<br> 
+rebeccakurtz62\@gmail.com
+<br> 
+<br> 
+
+**Office:** 
 
 900 University Ave. <br> 
 Olmsted Hall 1108  <br> 
@@ -52,11 +63,11 @@ Riverside, CA 92521
 
 # **Biography**
 
-I am a PhD candidate in Applied Statistics at the University of California, Riverside (UCR). Prior to arriving at UCR, I earned a masters of science in Statistics at Ball State University, and a bachelors of science in Statistics at the University of California, Davis. I have worked on a variety of projects related to time series, biostatistics, sports analysis, fiscal policy, and spectral analysis. 
+I am a PhD candidate in Applied Statistics at the University of California, Riverside (UCR). Prior to arriving at UCR, I earned a masters of science in statistics at Ball State University, and a bachelors of science in statistics with an emphasis in economics at the University of California, Davis. I have worked on a variety of projects related to time series, biostatistics, sports analysis, fiscal policy, and spectral analysis. 
 <br>
 <br>
 When I am not working I like to participate in endurance sports and go rock climbing.  I enjoy sewing dresses for my niece, and love a good book when I have down time.  I have two pets, a dog named Darwin and a cat name June Carter.  Some might also consider them statisticians considering how often they like to help me work.
 <br>
 <br>
-Selected projects and course materials may be found under "Projects" and "Teaching", respectively.  If you are insterested in collaboration, mentoring, or consulting work please send me an email.   
+Selected projects and course materials may be found under "Consulting" and "Teaching", respectively.  If you are interested in collaboration, mentoring, or consulting work please send me an email.   
 
