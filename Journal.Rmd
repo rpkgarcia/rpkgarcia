@@ -20,8 +20,8 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ### Experience
 
 - **Consultant** (Sept 2019 - June 2020)   
-   Location: GradQuant, University of California Riverside - Riverside, CA   
-   <span class="desc">Responsible for holding quantitative consultations, and developing and presenting workshops for a variety of topics and programs. Assisted the Lead Consultant with the creation of resources and promotion of GradQuant through social media and on-campus events.</span>
+   Location: [GradQuant](https://gradquant.ucr.edu/), University of California Riverside - Riverside, CA   
+   <span class="desc">Responsible for holding quantitative consultations, and developing and presenting workshops for a variety of topics and programs. Assisted with the creation of resources and promotion of GradQuant through social media and on-campus events. Specialized In: LaTeX, Python, R, Matlab, Machine learning, Probability theory, Statistical computing, Statistical inference, Web scraping, Advanced Statistical Methods. </span>
    
 - **Graduate Student Researcher - Intern** (Oct 2020 - Sept 2021)      
   Location: Mathematical Analysis Research Corps - Claremont, CA   

@@ -11,7 +11,7 @@ output:
 **Primary Instructor**
 
 - STAT 107: Introduction to Statistical Computing With R    
-<span class="desc">Introduction to R. Topics include data management, basic statistical analysis and graphics, use of functions and packages, simple programming, and reproducible work. Terms: F21, W22, Su22 </span>  
+<span class="desc">Introduction to R. Topics include data management, basic statistical analysis and graphics, use of functions and packages, simple programming, and reproducible work. Terms: Su22, W22, F21 </span>  
     [[Syllabus](TeachingDocuments/Winter22STAT107Syllabus.pdf)], [[Notes](https://rpkgarcia.github.io/STAT107_Winter22/)]
     
     
@@ -22,15 +22,18 @@ output:
 
 **Teaching Assistant**
 
+- STAT 167: Introduction to Data Science  
+<span class="desc">  Introduction to data science using the R programming language. Topics include big data management, visualization and analytical skills, unsupervised and supervised statistical learning methods, and real-world data science application examples.  Terms:  Sp22</span> 
+
 - STAT 10/100A: Introduction to Statistics    
-<span class="desc">A general introduction to descriptive and inferential statistics. Topics include histograms; descriptive statistics; probability; normal, and binomial distributions; sampling distributions; hypothesis testing; and confidence intervals. Programming component. Terms: S22, W20</span> 
+<span class="desc">A general introduction to descriptive and inferential statistics. Topics include histograms; descriptive statistics; probability; normal, and binomial distributions; sampling distributions; hypothesis testing; and confidence intervals. Programming component. Terms: Sp22, W20</span> 
     
 - STAT 11/100B: Introduction to Statistics    
 <span class="desc">Topics include linear regression, correlation, analysis of variance, and simple experimental designs. Programming component. Terms: S20</span> 
     
     
 - STAT 155: Probability and Statistics For Science and Engineering    
-<span class="desc"> Covers sample spaces and probability; random variables and probability distributions; elements of statistical inference; and testing and estimation. Also addresses selected topics in multivariate distributions and introduces stochastic processes.  Terms: Su19, F19, W20, S20</span> 
+<span class="desc"> Covers sample spaces and probability; random variables and probability distributions; elements of statistical inference; and testing and estimation. Also addresses selected topics in multivariate distributions and introduces stochastic processes.  Terms:  Sp20, W20, F19 Su19</span> 
 
 <br><br>
 
@@ -40,7 +43,7 @@ output:
 **Primary Instructor**
 
 - MATH 125: Quantitative Reasoning   
-<span class="desc"> A diverse course including statistics and other topics such as mathematical modeling, problem solving, finance, geometrical concepts, growth patterns, and applications to the physical sciences, social sciences, and economics.  Terms: F17, S18 </span> 
+<span class="desc"> A diverse course including statistics and other topics such as mathematical modeling, problem solving, finance, geometrical concepts, growth patterns, and applications to the physical sciences, social sciences, and economics.  Terms: S18, F17 </span> 
 
 <br><br>
 
