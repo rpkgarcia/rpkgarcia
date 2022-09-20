@@ -14,8 +14,6 @@ output: html_document
 
 - Simulation 
 
-- Categorical Data
-
 - Machine Learning
 
 - Data Science 
