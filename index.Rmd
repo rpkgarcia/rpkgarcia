@@ -61,6 +61,7 @@ Riverside, CA 92521
 
 <div class="col-sm-6">
 
+
 # **Biography**
 
 I am a PhD candidate in Applied Statistics at the University of California, Riverside (UCR). Prior to arriving at UCR, I earned a masters of science in statistics at Ball State University, and a bachelors of science in statistics with an emphasis in economics at the University of California, Davis. I have worked on a variety of projects related to time series, biostatistics, sports analysis, fiscal policy, and spectral analysis. 
