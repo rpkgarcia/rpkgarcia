@@ -54,7 +54,7 @@ output: html_document
 - [NBER-NSF Time Series Conference](https://sites-staging.bu.edu/nber-nsf2022/) Boston, MA (SCHEDULED: 2022, Fall)
     + Attendee 
 - [Joint Statistical Meetings](https://ww2.amstat.org/meetings/jsm/2022/) Washington DC (2022, Summer)
-    + Poster Presentation: [*Alternative Time-Average Covariance Matrix Estimation Procedures*](ResearchDocuments/JSMPoster2022.pdf)
+    + Poster Presentation: [*Alternative Time-Average Covariance Matrix Estimation Procedures*](ResearchDocuments/JSM2022.pdf)
     + Co-Organizer for National Institute of Statistical Sciences (NISS) Graduate Student Network Social 
 - [NISS Graduate Student Conference](https://www.niss.org/events/2nd-annual-graduate-student-research-conference-niss-graduate-student-network-event) (2022, Spring)   
     + Oral Presentation: [*Alternative Time-Average Covariance Matrix Estimation Procedures*](https://rpkgarcia.shinyapps.io/NISSpresentation2022KurtzGarcia/#1)
