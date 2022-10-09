@@ -24,7 +24,7 @@ output: html_document
 
 ## Selected Research Projects
 
-- **Kurtz-Garcia, R. P.**, Flegal, J., *Testing Optimal Bandwidth for Lugsail Estimators for HAR Inference Settings*.  In preparation. 
+- **Kurtz-Garcia, R. P.**, Flegal, J., *Testing Optimal Lugsail Estimators for Robust Inference*.  In preparation. 
 
 - **Kurtz-Garcia, R. P.**, *Teaching Iterative Methods in R*.  In preparation. 
 
@@ -51,7 +51,9 @@ output: html_document
 
 
 ## Conference Activity 
-- [NBER-NSF Time Series Conference](https://sites-staging.bu.edu/nber-nsf2022/) Boston, MA (SCHEDULED: 2022, Fall)
+- [Joint Mathematical Meetings](https://www.jointmathematicsmeetings.org/meetings/national/jmm2023/2270_program.html) Boston, MA (Schedueled: 2023, January)
+    + Oral Presentation: *Lessons Learned From Teaching Programming In R Remote And In Person*
+- [NBER-NSF Time Series Conference](https://sites-staging.bu.edu/nber-nsf2022/) Boston, MA (2022, Fall)
     + Attendee 
 - [Joint Statistical Meetings](https://ww2.amstat.org/meetings/jsm/2022/) Washington DC (2022, Summer)
     + Poster Presentation: [*Alternative Time-Average Covariance Matrix Estimation Procedures*](ResearchDocuments/JSM2022.pdf)
