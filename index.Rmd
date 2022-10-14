@@ -29,7 +29,7 @@ output:
 <img src="images/selfie_circle.jpg" width="300"/>
 
 
-<a href="CVKurtzGarciaMay22.pdf"><img src="images/logo/download.png" alt="Download My CV" style="width:32px;height:32px;"> Download My CV</a>
+<a href="CVKurtzGarcia.pdf"><img src="images/logo/download.png" alt="Download My CV" style="width:32px;height:32px;"> Download My CV</a>
 <br>
 <br>
 <a href="https://github.com/rpkgarcia"><img src="images/logo/github.png" alt="HTML tutorial" style="width:32px;height:32px;">  GitHub</a>
@@ -64,10 +64,10 @@ Riverside, CA 92521
 
 # **Biography**
 
-I am a PhD candidate in Applied Statistics at the University of California, Riverside (UCR). Prior to arriving at UCR, I earned a masters of science in statistics at Ball State University, and a bachelors of science in statistics with an emphasis in economics at the University of California, Davis. I have worked on a variety of projects related to time series, biostatistics, sports analysis, fiscal policy, and spectral analysis. 
+I am a PhD candidate in Applied Statistics at the University of California Riverside (UCR), and my dissertation advisor is [Dr. James Flegal](https://james-flegal.github.io/). Prior to arriving at UCR, I earned a masters of science in statistics at Ball State University, where my thesis advisor [Dr. Rebecca Pierce](https://www.bsu.edu/academics/collegesanddepartments/math/about/facultyandstaff/faculty/piercerebecca). I also earned a bachelors of science in statistics with an emphasis in economics at the University of California, Davis. I am from Los Angeles county originally. I have worked on a variety of projects related to time series, biostatistics, sports analysis, fiscal policy, and spectral analysis. 
 <br>
 <br>
-When I am not working I like to participate in endurance sports and go rock climbing.  I enjoy sewing dresses for my niece, and love a good book when I have down time.  I currently live in Riverside California with my partner and my dog.  
+When I am not working I like to participate in endurance sports and go rock climbing.  I enjoy sewing dresses for my niece, and love a good book when I have down time.  I currently live in Riverside California with my partner and my dog. 
 <br>
 <br>
 Selected projects and course materials may be found under "Consulting" and "Teaching", respectively.  If you are interested in collaboration, mentoring, or consulting work please send me an email.   
