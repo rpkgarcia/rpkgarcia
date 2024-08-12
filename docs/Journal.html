@@ -13,6 +13,7 @@
 
 <title>Consulting</title>
 
+<script src="site_libs/header-attrs-2.24/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
@@ -141,11 +142,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -174,8 +179,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -183,16 +188,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -279,16 +277,39 @@ $(document).ready(function () {
 <h3>Experience</h3>
 <ul>
 <li><p><strong>Consultant</strong> (Sept 2019 - June 2020)<br />
-Location: <a href="https://gradquant.ucr.edu/">GradQuant</a>, University of California Riverside - Riverside, CA<br />
-<span class="desc">Responsible for holding quantitative consultations, and developing and presenting workshops for a variety of topics and programs. Assisted with the creation of resources and promotion of GradQuant through social media and on-campus events. Specialized In: LaTeX, Python, R, Matlab, Machine learning, Probability theory, Statistical computing, Statistical inference, Web scraping, Advanced Statistical Methods. </span></p></li>
-<li><p><strong>Graduate Student Researcher - Intern</strong> (Oct 2020 - Sept 2021)<br />
+Location: <a href="https://gradquant.ucr.edu/">GradQuant</a>, University
+of California Riverside - Riverside, CA<br />
+<span class="desc">Responsible for holding quantitative consultations,
+and developing and presenting workshops for a variety of topics and
+programs. Assisted with the creation of resources and promotion of
+GradQuant through social media and on-campus events. Specialized In:
+LaTeX, Python, R, Matlab, Machine learning, Probability theory,
+Statistical computing, Statistical inference, Web scraping, Advanced
+Statistical Methods. </span></p></li>
+<li><p><strong>Graduate Student Researcher - Intern</strong> (Oct 2020 -
+Sept 2021)<br />
 Location: Mathematical Analysis Research Corps - Claremont, CA<br />
-<span class="desc">Consult on unique statistical and computational problems where solutions may result in publication. Work on long term projects both as a team and at an individual level. Interact with others that have a variety of different backgrounds, responsible for handling sensitive information. Prepare and present materials for a specialized audience</span></p></li>
+<span class="desc">Consult on unique statistical and computational
+problems where solutions may result in publication. Work on long term
+projects both as a team and at an individual level. Interact with others
+that have a variety of different backgrounds, responsible for handling
+sensitive information. Prepare and present materials for a specialized
+audience</span></p></li>
 </ul>
 </div>
 <div id="workshops" class="section level3">
 <h3>Workshops</h3>
-<p>The majority of workshops were prepared and presented by myself. These workshops were created for a variety of audiences, including high school, undergraduate and graduate students, faculty research groups, and professional groups. Many of these workshops were implemented multiple times, with modifications for the specific setting and audience. Some of these workshops were implemented as part of my positions above, but I have not listed any workshops/tutorials that are a part of courses I have taught or taken. Some of my workshop materials are readily available on my github account. If there is one you would like but it is not there please send me an email. In no particular order:</p>
+<p>The majority of workshops were prepared and presented by myself.
+These workshops were created for a variety of audiences, including high
+school, undergraduate and graduate students, faculty research groups,
+and professional groups. Many of these workshops were implemented
+multiple times, with modifications for the specific setting and
+audience. Some of these workshops were implemented as part of my
+positions above, but I have not listed any workshops/tutorials that are
+a part of courses I have taught or taken. Some of my workshop materials
+are readily available on my github account. If there is one you would
+like but it is not there please send me an email. In no particular
+order:</p>
 <p><strong>Coding Based Workshops</strong></p>
 <ul>
 <li>An Introduction to the R Programming Language</li>

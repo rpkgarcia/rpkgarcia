@@ -13,6 +13,7 @@
 
 <title>Rebecca Kurtz-Garcia</title>
 
+<script src="site_libs/header-attrs-2.24/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
@@ -147,11 +148,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -180,8 +185,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -189,16 +194,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -294,12 +292,19 @@ $(document).ready(function () {
 </div>
 <div class="col-sm-6">
 <p><img src="images/selfie_circle.jpg" width="300"/></p>
-<p><a href="CVKurtzGarcia.pdf"><img src="images/logo/download.png" alt="Download My CV" style="width:32px;height:32px;"> Download My CV</a> <br> <br> <a href="https://github.com/rpkgarcia"><img src="images/logo/github.png" alt="HTML tutorial" style="width:32px;height:32px;"> GitHub</a> <br> <br> <a href="https://www.linkedin.com/in/rebecca-kurtz-garcia-ab5bb3ab"><img src="images/logo/linkedin.png" alt="HTML tutorial" style="width:32px;height:32px;"> LinkedIn</a></p>
-<p><strong>Pronouns</strong>: <a href="https://out.ucr.edu/pronouns-matter">she/her</a></p>
+<p><a href="CVKurtzGarcia.pdf"><img src="images/logo/download.png" alt="Download My CV" style="width:32px;height:32px;">
+Download My CV</a> <br> <br>
+<a href="https://github.com/rpkgarcia"><img src="images/logo/github.png" alt="HTML tutorial" style="width:32px;height:32px;">
+GitHub</a> <br> <br>
+<a href="https://www.linkedin.com/in/rebecca-kurtz-garcia-ab5bb3ab"><img src="images/logo/linkedin.png" alt="HTML tutorial" style="width:32px;height:32px;">
+LinkedIn</a></p>
+<p><strong>Pronouns</strong>:
+<a href="https://out.ucr.edu/pronouns-matter">she/her</a></p>
 <p><strong>Contact:</strong></p>
-<p>rkurt001@ucr.edu<br> rebeccakurtz62@gmail.com <br> <br></p>
+<p>rkurtzgarcia@smith.edu<br> rebeccakurtz62@gmail.com <br> <br></p>
 <p><strong>Office:</strong></p>
-<p>900 University Ave. <br> Olmsted Hall 1108 <br> Riverside, CA 92521</p>
+<p>900 University Ave. <br> Olmsted Hall 1108 <br> Riverside, CA
+92521</p>
 <p></a></p>
 </div>
 <div class="col-sm-6">
@@ -307,7 +312,26 @@ $(document).ready(function () {
 
 <div id="biography" class="section level1">
 <h1><strong>Biography</strong></h1>
-<p>I am a PhD candidate in Applied Statistics at the University of California Riverside (UCR), and my dissertation advisor is <a href="https://james-flegal.github.io/">Dr. James Flegal</a>. Prior to arriving at UCR, I earned a masters of science in statistics at Ball State University, where my thesis advisor was <a href="https://www.bsu.edu/academics/collegesanddepartments/math/about/facultyandstaff/faculty/piercerebecca">Dr. Rebecca Pierce</a>. I also earned a bachelors of science in statistics with an emphasis in economics at the University of California, Davis. I am from Los Angeles county originally. I have worked on a variety of projects related to time series, biostatistics, sports analysis, fiscal policy, and spectral analysis. <br> <br> When I am not working I like to participate in endurance sports and go rock climbing. I enjoy sewing dresses for my niece, and love a good book when I have down time. I currently live in Riverside California with my partner and my dog. <br> <br> Selected projects and course materials may be found under “Consulting” and “Teaching”, respectively. If you are interested in collaboration, mentoring, or consulting work please send me an email.</p>
+<p>I currently an assistant professor at <a
+href="https://www.smith.edu/">Smith College</a> with joint appointment
+in the Mathematics department, and the Statistics &amp; Data Science
+department. I obtained my PhD at the University of California Riverside,
+where my dissertation advisor was <a
+href="https://james-flegal.github.io/">Dr. James Flegal</a>. Prior to
+arriving at UCR, I earned a masters of science in statistics at Ball
+State University, where my thesis advisor was <a
+href="https://www.bsu.edu/academics/collegesanddepartments/math/about/facultyandstaff/faculty/piercerebecca">Dr. Rebecca
+Pierce</a>. I also earned a bachelors of science in statistics with an
+emphasis in economics at the University of California, Davis. I am from
+Los Angeles county originally. I have worked on a variety of projects
+related to time series, biostatistics, sports analysis, fiscal policy,
+and spectral analysis. <br> <br> When I am not working I like to
+participate in endurance sports and go rock climbing. I enjoy sewing
+dresses for my niece, and love a good book when I have down time. I
+currently live in Northampton MA with my partner and my dog. <br> <br>
+Selected projects and course materials may be found under “Consulting”
+and “Teaching”, respectively. If you are interested in collaboration,
+mentoring, or consulting work please send me an email.</p>
 </div>
 
 

@@ -13,6 +13,7 @@
 
 <title>Teaching</title>
 
+<script src="site_libs/header-attrs-2.24/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
@@ -141,11 +142,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -174,8 +179,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -183,16 +188,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -280,22 +278,49 @@ $(document).ready(function () {
 <p><strong>Primary Instructor</strong></p>
 <ul>
 <li><p>STAT 107: Introduction to Statistical Computing With R<br />
-<span class="desc">Introduction to R. Topics include data management, basic statistical analysis and graphics, use of functions and packages, simple programming, and reproducible work. Terms: Su22, W22, F21 </span><br />
-[<a href="TeachingDocuments/Winter22STAT107Syllabus.pdf">Syllabus</a>], [<a href="https://rpkgarcia.github.io/stat107CourseNotes/">Notes</a>]</p></li>
+<span class="desc">Introduction to R. Topics include data management,
+basic statistical analysis and graphics, use of functions and packages,
+simple programming, and reproducible work. Terms: Su22, W22, F21
+</span><br />
+[<a href="TeachingDocuments/Winter22STAT107Syllabus.pdf">Syllabus</a>],
+[<a
+href="https://rpkgarcia.github.io/stat107CourseNotes/">Notes</a>]</p></li>
 <li><p>GradQuant: Statistics and Programming Bootcamp<br />
-<span class="desc">A review course for graduate students on various topics in descriptive and inferential statistics, as well as applications within various fields. There is also a brief introduction to Excel and the R programming language. This series of workshops covers the prerequisite material needed to take graduate-level courses on statistical methods and to perform analyses on various kinds of research data. Terms: Su21, Su20 </span><br />
-[<a href="TeachingDocuments/2020%20GradQuant%20Stats-Prg%20Bootcamp%20-%20Syllabus.pdf">Syllabus</a>]</p></li>
+<span class="desc">A review course for graduate students on various
+topics in descriptive and inferential statistics, as well as
+applications within various fields. There is also a brief introduction
+to Excel and the R programming language. This series of workshops covers
+the prerequisite material needed to take graduate-level courses on
+statistical methods and to perform analyses on various kinds of research
+data. Terms: Su21, Su20 </span><br />
+[<a
+href="TeachingDocuments/2020%20GradQuant%20Stats-Prg%20Bootcamp%20-%20Syllabus.pdf">Syllabus</a>]</p></li>
 </ul>
 <p><strong>Teaching Assistant</strong></p>
 <ul>
 <li><p>STAT 167: Introduction to Data Science<br />
-<span class="desc"> Introduction to data science using the R programming language. Topics include big data management, visualization and analytical skills, unsupervised and supervised statistical learning methods, and real-world data science application examples. Terms: Sp22</span></p></li>
+<span class="desc"> Introduction to data science using the R programming
+language. Topics include big data management, visualization and
+analytical skills, unsupervised and supervised statistical learning
+methods, and real-world data science application examples. Terms:
+Sp22</span></p></li>
 <li><p>STAT 10/100A: Introduction to Statistics<br />
-<span class="desc">A general introduction to descriptive and inferential statistics. Topics include histograms; descriptive statistics; probability; normal, and binomial distributions; sampling distributions; hypothesis testing; and confidence intervals. Programming component. Terms: Sp22, W20</span></p></li>
+<span class="desc">A general introduction to descriptive and inferential
+statistics. Topics include histograms; descriptive statistics;
+probability; normal, and binomial distributions; sampling distributions;
+hypothesis testing; and confidence intervals. Programming component.
+Terms: Sp22, W20</span></p></li>
 <li><p>STAT 11/100B: Introduction to Statistics<br />
-<span class="desc">Topics include linear regression, correlation, analysis of variance, and simple experimental designs. Programming component. Terms: S20</span></p></li>
-<li><p>STAT 155: Probability and Statistics For Science and Engineering<br />
-<span class="desc"> Covers sample spaces and probability; random variables and probability distributions; elements of statistical inference; and testing and estimation. Also addresses selected topics in multivariate distributions and introduces stochastic processes. Terms: Sp20, W20, F19 Su19</span></p></li>
+<span class="desc">Topics include linear regression, correlation,
+analysis of variance, and simple experimental designs. Programming
+component. Terms: S20</span></p></li>
+<li><p>STAT 155: Probability and Statistics For Science and
+Engineering<br />
+<span class="desc"> Covers sample spaces and probability; random
+variables and probability distributions; elements of statistical
+inference; and testing and estimation. Also addresses selected topics in
+multivariate distributions and introduces stochastic processes. Terms:
+Sp20, W20, F19 Su19</span></p></li>
 </ul>
 <p><br><br></p>
 </div>
@@ -304,20 +329,39 @@ $(document).ready(function () {
 <p><strong>Primary Instructor</strong></p>
 <ul>
 <li>MATH 125: Quantitative Reasoning<br />
-<span class="desc"> A diverse course including statistics and other topics such as mathematical modeling, problem solving, finance, geometrical concepts, growth patterns, and applications to the physical sciences, social sciences, and economics. Terms: S18, F17 </span></li>
+<span class="desc"> A diverse course including statistics and other
+topics such as mathematical modeling, problem solving, finance,
+geometrical concepts, growth patterns, and applications to the physical
+sciences, social sciences, and economics. Terms: S18, F17 </span></li>
 </ul>
 <p><br><br></p>
 </div>
-<div id="upward-bound-at-ivy-tech-community-college" class="section level2">
+<div id="upward-bound-at-ivy-tech-community-college"
+class="section level2">
 <h2>Upward Bound (at Ivy Tech Community College)</h2>
 <p><strong>Primary Instructor</strong></p>
 <ul>
 <li><p>Sports Statistics<br />
-<span class="desc">Introductory course in statistics. In this course we focus on statistical concepts that can be applied to major league sports, especially baseball. This class is ideal for fantasy sports enthusiasts, math nerds, and those curious about the world around them. We focus on descriptive statistics, organizing and presenting data. We introduce basic inferential statistics such a simple linear regression. Term: Su18</span></p></li>
+<span class="desc">Introductory course in statistics. In this course we
+focus on statistical concepts that can be applied to major league
+sports, especially baseball. This class is ideal for fantasy sports
+enthusiasts, math nerds, and those curious about the world around them.
+We focus on descriptive statistics, organizing and presenting data. We
+introduce basic inferential statistics such a simple linear regression.
+Term: Su18</span></p></li>
 <li><p>Entrepreneurship<br />
-<span class="desc">Entrepreneurship for high school students. For the first half of the course we define what it means to be an entrepreneur and learn about different types of business structures and models. The second half of the course we go over different aspects of making a business plan, such as: market analysis, finance, and advertising. Term: Su18</span></p></li>
+<span class="desc">Entrepreneurship for high school students. For the
+first half of the course we define what it means to be an entrepreneur
+and learn about different types of business structures and models. The
+second half of the course we go over different aspects of making a
+business plan, such as: market analysis, finance, and advertising. Term:
+Su18</span></p></li>
 <li><p>Mathematics for Buisness and Life<br />
-<span class="desc">Introductory course in mathematics that covers topics related to business, and personal finance. The class covers a range of topics including simple interest, compound interest, annuities, retirement accounts, car/student loans, credit cards, making budgets, and an introduction to the stock market. Term: Su18</span></p></li>
+<span class="desc">Introductory course in mathematics that covers topics
+related to business, and personal finance. The class covers a range of
+topics including simple interest, compound interest, annuities,
+retirement accounts, car/student loans, credit cards, making budgets,
+and an introduction to the stock market. Term: Su18</span></p></li>
 </ul>
 </div>
 

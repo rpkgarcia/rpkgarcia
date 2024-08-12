@@ -42,7 +42,7 @@ output:
 
 **Contact:** 
 
-rkurt001\@ucr.edu<br> 
+rkurtzgarcia\@smith.edu<br> 
 rebeccakurtz62\@gmail.com
 <br> 
 <br> 
@@ -64,10 +64,10 @@ Riverside, CA 92521
 
 # **Biography**
 
-I am a PhD candidate in Applied Statistics at the University of California Riverside (UCR), and my dissertation advisor is [Dr. James Flegal](https://james-flegal.github.io/). Prior to arriving at UCR, I earned a masters of science in statistics at Ball State University, where my thesis advisor was [Dr. Rebecca Pierce](https://www.bsu.edu/academics/collegesanddepartments/math/about/facultyandstaff/faculty/piercerebecca). I also earned a bachelors of science in statistics with an emphasis in economics at the University of California, Davis. I am from Los Angeles county originally. I have worked on a variety of projects related to time series, biostatistics, sports analysis, fiscal policy, and spectral analysis. 
+I currently an assistant professor at [Smith College](https://www.smith.edu/) with joint appointment in the Mathematics department, and the Statistics & Data Science department. I obtained my PhD at the University of California Riverside, where my dissertation advisor was [Dr. James Flegal](https://james-flegal.github.io/). Prior to arriving at UCR, I earned a masters of science in statistics at Ball State University, where my thesis advisor was [Dr. Rebecca Pierce](https://www.bsu.edu/academics/collegesanddepartments/math/about/facultyandstaff/faculty/piercerebecca). I also earned a bachelors of science in statistics with an emphasis in economics at the University of California, Davis. I am from Los Angeles county originally. I have worked on a variety of projects related to time series, biostatistics, sports analysis, fiscal policy, and spectral analysis. 
 <br>
 <br>
-When I am not working I like to participate in endurance sports and go rock climbing.  I enjoy sewing dresses for my niece, and love a good book when I have down time.  I currently live in Riverside California with my partner and my dog. 
+When I am not working I like to participate in endurance sports and go rock climbing.  I enjoy sewing dresses for my niece, and love a good book when I have down time.  I currently live in Northampton MA with my partner and my dog. 
 <br>
 <br>
 Selected projects and course materials may be found under "Consulting" and "Teaching", respectively.  If you are interested in collaboration, mentoring, or consulting work please send me an email.   
