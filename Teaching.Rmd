@@ -19,6 +19,8 @@ output:
 - SDS 220: Introduction to Statistical Computing With R    
 <span class="desc">An application-oriented introduction to modern statistical inference: study design, descriptive statistics, random variables, probability and sampling distributions, point and interval estimates, hypothesis tests, resampling procedures and multiple regression. A wide variety of applications from the natural and social sciences are used. Terms: F23, Sp24, F24 </span>  
     [[Syllabus](TeachingDocuments/SDS220_F24.pdf)]
+    
+<br>
 
 **University of California Riverside**
 
@@ -47,7 +49,7 @@ output:
 <!-- - STAT 155: Probability and Statistics For Science and Engineering     -->
 <!-- <span class="desc"> Covers sample spaces and probability; random variables and probability distributions; elements of statistical inference; and testing and estimation. Also addresses selected topics in multivariate distributions and introduces stochastic processes.  Terms:  Sp20, W20, F19 Su19</span>  -->
 
-<br><br>
+<br>
 
 
 
@@ -56,7 +58,7 @@ output:
 - MATH 125: Quantitative Reasoning   
 <span class="desc"> A diverse course including statistics and other topics such as mathematical modeling, problem solving, finance, geometrical concepts, growth patterns, and applications to the physical sciences, social sciences, and economics.  Terms: S18, F17 </span> 
 
-<br><br>
+<br>
 
 
 **Upward Bound (at Ivy Tech Community College) **
