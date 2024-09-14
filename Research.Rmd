@@ -26,7 +26,9 @@ output: html_document
 
 - **Kurtz-Garcia, R. P.**, Flegal, J., *Testing Optimal Lugsail Estimators for Robust Inference*.  In preparation. 
 
-- **Kurtz-Garcia, R. P.**, *Teaching Iterative Methods in R*.  In preparation. 
+- **Kurtz-Garcia, R. P.**, *Teaching Iterative Methods in R*.  In preparation.
+
+- Flegal, James M., and **Rebecca P. Kurtz-Garcia**.(2024). *Implementing MCMC: Multivariate estimation with confidence.* [https://arxiv.org/abs/2408.15396](arXiv preprint arXiv:2408.15396).
 
 - Pickerill, E. S., **Kurtz, R. P.**, Tharp, A., Guerrero Sanz, P., Begum, M., & Bernstein, D. A. (2019). *[Pseudouridine synthase 7 impacts Candida albicans rRNA processing and morphological plasticity](ResearchDocuments/Yeast2019.pdf)*. Yeast, 36(11), 669-677.
 
@@ -50,39 +52,39 @@ output: html_document
 - Dr. Mir Masoom Ali Scholarship, Ball State University (2018)
 
 
-## Conference Activity 
-- [Joint Mathematical Meetings](https://www.jointmathematicsmeetings.org/meetings/national/jmm2023/2270_program.html) Boston, MA (Schedueled: 2023, January)
-    + Oral Presentation: *Lessons Learned From Teaching Programming In R Remote And In Person*
-- [NBER-NSF Time Series Conference](https://sites-staging.bu.edu/nber-nsf2022/) Boston, MA (2022, Fall)
-    + Attendee 
-- [Joint Statistical Meetings](https://ww2.amstat.org/meetings/jsm/2022/) Washington DC (2022, Summer)
-    + Poster Presentation: [*Alternative Time-Average Covariance Matrix Estimation Procedures*](ResearchDocuments/JSM2022.pdf)
-    + Co-Organizer for National Institute of Statistical Sciences (NISS) Graduate Student Network Social 
-- [NISS Graduate Student Conference](https://www.niss.org/events/2nd-annual-graduate-student-research-conference-niss-graduate-student-network-event) (2022, Spring)   
-    + Oral Presentation: [*Alternative Time-Average Covariance Matrix Estimation Procedures*](https://rpkgarcia.shinyapps.io/NISSpresentation2022KurtzGarcia/#1)
-    + Organizing Committee
-    + Session Chair
-- [Women in Data Science](https://wids.cs.ucr.edu/), University of California Riverside (2022, Winter)    
-    + Invited Workshop Presenter: *Advanced Text Analysis in R*
-    + Panelist 
-- [Minds Datathon Conference](http://datasciminds.org/Datathon_2021.html), Orange County, CA (2021, Fall)   
-    + Plenary Speaker: *Decision Trees with the Iris Data*
-- [NISS Graduate Student Conference](https://www.niss.org/news/niss-graduate-student-network-convenes-two-day-research-conference) (2021, June)    
-    + Oral Presentation: *Recent Advances in Time-Average Covariance Matrix Estimation*
-    + Organizing Committee
-    + Session Chair
-- [Minds Datathon Conference](http://datasciminds.org/datathon.html), Orange County, CA (2020, Fall) 
-    + Invited Workshop Presenter: *Random Forests*
-- [Women Working in Technology](https://womenworkingintechnology.org/home), Ball State University (2018, Spring)
-    + Attendee 
-- [Student Symposium](https://www.bsu.edu/about/administrativeoffices/sponsored-projects-administration/student-symposium), Ball State University (2018, Spring) 
-    + Oral Presentation: [*Are You In or Are You Out?*](ResearchDocuments/StudentSymposium.pdf)
-- [Rustbelt RNA Meeting](https://rustbeltrna.org/2017/), Indianapolis, IN (2017, Fall) 
-    + Attendee 
-- [Women Working in Technology](https://womenworkingintechnology.org/home), Ball State University (2017, Spring)
-    + Attendee 
-- [iidata Data Science Convention](https://statistics.ucdavis.edu/), University of California Davis (2016, Spring)
-    + Poster Presentation: [*Solar Irradiance Covariance Modeling for Sacramento County*](ResearchDocuments/RTG_1_Poster.pdf)
+<!-- ## Conference Activity  -->
+<!-- - [Joint Mathematical Meetings](https://www.jointmathematicsmeetings.org/meetings/national/jmm2023/2270_program.html) Boston, MA (Schedueled: 2023, January) -->
+<!--     + Oral Presentation: *Lessons Learned From Teaching Programming In R Remote And In Person* -->
+<!-- - [NBER-NSF Time Series Conference](https://sites-staging.bu.edu/nber-nsf2022/) Boston, MA (2022, Fall) -->
+<!--     + Attendee  -->
+<!-- - [Joint Statistical Meetings](https://ww2.amstat.org/meetings/jsm/2022/) Washington DC (2022, Summer) -->
+<!--     + Poster Presentation: [*Alternative Time-Average Covariance Matrix Estimation Procedures*](ResearchDocuments/JSM2022.pdf) -->
+<!--     + Co-Organizer for National Institute of Statistical Sciences (NISS) Graduate Student Network Social  -->
+<!-- - [NISS Graduate Student Conference](https://www.niss.org/events/2nd-annual-graduate-student-research-conference-niss-graduate-student-network-event) (2022, Spring)    -->
+<!--     + Oral Presentation: [*Alternative Time-Average Covariance Matrix Estimation Procedures*](https://rpkgarcia.shinyapps.io/NISSpresentation2022KurtzGarcia/#1) -->
+<!--     + Organizing Committee -->
+<!--     + Session Chair -->
+<!-- - [Women in Data Science](https://wids.cs.ucr.edu/), University of California Riverside (2022, Winter)     -->
+<!--     + Invited Workshop Presenter: *Advanced Text Analysis in R* -->
+<!--     + Panelist  -->
+<!-- - [Minds Datathon Conference](http://datasciminds.org/Datathon_2021.html), Orange County, CA (2021, Fall)    -->
+<!--     + Plenary Speaker: *Decision Trees with the Iris Data* -->
+<!-- - [NISS Graduate Student Conference](https://www.niss.org/news/niss-graduate-student-network-convenes-two-day-research-conference) (2021, June)     -->
+<!--     + Oral Presentation: *Recent Advances in Time-Average Covariance Matrix Estimation* -->
+<!--     + Organizing Committee -->
+<!--     + Session Chair -->
+<!-- - [Minds Datathon Conference](http://datasciminds.org/datathon.html), Orange County, CA (2020, Fall)  -->
+<!--     + Invited Workshop Presenter: *Random Forests* -->
+<!-- - [Women Working in Technology](https://womenworkingintechnology.org/home), Ball State University (2018, Spring) -->
+<!--     + Attendee  -->
+<!-- - [Student Symposium](https://www.bsu.edu/about/administrativeoffices/sponsored-projects-administration/student-symposium), Ball State University (2018, Spring)  -->
+<!--     + Oral Presentation: [*Are You In or Are You Out?*](ResearchDocuments/StudentSymposium.pdf) -->
+<!-- - [Rustbelt RNA Meeting](https://rustbeltrna.org/2017/), Indianapolis, IN (2017, Fall)  -->
+<!--     + Attendee  -->
+<!-- - [Women Working in Technology](https://womenworkingintechnology.org/home), Ball State University (2017, Spring) -->
+<!--     + Attendee  -->
+<!-- - [iidata Data Science Convention](https://statistics.ucdavis.edu/), University of California Davis (2016, Spring) -->
+<!--     + Poster Presentation: [*Solar Irradiance Covariance Modeling for Sacramento County*](ResearchDocuments/RTG_1_Poster.pdf) -->
 
 
 

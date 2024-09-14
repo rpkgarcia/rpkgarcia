@@ -6,9 +6,21 @@ output:
 
 ------------------------
 
-## University of California Riverside 
+**Smith College**
 
-**Primary Instructor**
+- MST 246: Probability     
+<span class="desc"> An introduction to probability, including combinatorial probability, random variables, discrete and continuous distributions. Terms: F24  </span>  
+    [[Syllabus](TeachingDocuments/MTH_320_F24.pdf)]
+
+- MST 320: Mathematical Statistics    
+<span class="desc">An introduction to the mathematical theory of statistics and to the application of that theory to the real world. Discussions include functions of random variables, estimation, likelihood and Bayesian methods, hypothesis testing and linear models. Terms: Sp24  </span>  
+    [[Syllabus](TeachingDocuments/MTH_320_F24.pdf)]
+
+- SDS 220: Introduction to Statistical Computing With R    
+<span class="desc">An application-oriented introduction to modern statistical inference: study design, descriptive statistics, random variables, probability and sampling distributions, point and interval estimates, hypothesis tests, resampling procedures and multiple regression. A wide variety of applications from the natural and social sciences are used. Terms: F23, Sp24, F24 </span>  
+    [[Syllabus](TeachingDocuments/SDS220_F24.pdf)]
+
+**University of California Riverside**
 
 - STAT 107: Introduction to Statistical Computing With R    
 <span class="desc">Introduction to R. Topics include data management, basic statistical analysis and graphics, use of functions and packages, simple programming, and reproducible work. Terms: Su22, W22, F21 </span>  
@@ -20,36 +32,34 @@ output:
 <span class="desc">A review course for graduate students on various topics in descriptive and inferential statistics, as well as applications within various fields. There is also a brief introduction to Excel and the R programming language. This series of workshops covers the prerequisite material needed to take graduate-level courses on statistical methods and to perform analyses on various kinds of research data. Terms: Su21, Su20    </span>  
   [[Syllabus](TeachingDocuments/2020 GradQuant Stats-Prg Bootcamp - Syllabus.pdf)] 
 
-**Teaching Assistant**
+<!-- **Teaching Assistant** -->
 
-- STAT 167: Introduction to Data Science  
-<span class="desc">  Introduction to data science using the R programming language. Topics include big data management, visualization and analytical skills, unsupervised and supervised statistical learning methods, and real-world data science application examples.  Terms:  Sp22</span> 
+<!-- - STAT 167: Introduction to Data Science   -->
+<!-- <span class="desc">  Introduction to data science using the R programming language. Topics include big data management, visualization and analytical skills, unsupervised and supervised statistical learning methods, and real-world data science application examples.  Terms:  Sp22</span>  -->
 
-- STAT 10/100A: Introduction to Statistics    
-<span class="desc">A general introduction to descriptive and inferential statistics. Topics include histograms; descriptive statistics; probability; normal, and binomial distributions; sampling distributions; hypothesis testing; and confidence intervals. Programming component. Terms: Sp22, W20</span> 
-    
-- STAT 11/100B: Introduction to Statistics    
-<span class="desc">Topics include linear regression, correlation, analysis of variance, and simple experimental designs. Programming component. Terms: S20</span> 
-    
-    
-- STAT 155: Probability and Statistics For Science and Engineering    
-<span class="desc"> Covers sample spaces and probability; random variables and probability distributions; elements of statistical inference; and testing and estimation. Also addresses selected topics in multivariate distributions and introduces stochastic processes.  Terms:  Sp20, W20, F19 Su19</span> 
+<!-- - STAT 10/100A: Introduction to Statistics     -->
+<!-- <span class="desc">A general introduction to descriptive and inferential statistics. Topics include histograms; descriptive statistics; probability; normal, and binomial distributions; sampling distributions; hypothesis testing; and confidence intervals. Programming component. Terms: Sp22, W20</span>  -->
+
+<!-- - STAT 11/100B: Introduction to Statistics     -->
+<!-- <span class="desc">Topics include linear regression, correlation, analysis of variance, and simple experimental designs. Programming component. Terms: S20</span>  -->
+
+
+<!-- - STAT 155: Probability and Statistics For Science and Engineering     -->
+<!-- <span class="desc"> Covers sample spaces and probability; random variables and probability distributions; elements of statistical inference; and testing and estimation. Also addresses selected topics in multivariate distributions and introduces stochastic processes.  Terms:  Sp20, W20, F19 Su19</span>  -->
 
 <br><br>
 
 
-## Ball State University 
 
-**Primary Instructor**
+**Ball State University **
 
 - MATH 125: Quantitative Reasoning   
 <span class="desc"> A diverse course including statistics and other topics such as mathematical modeling, problem solving, finance, geometrical concepts, growth patterns, and applications to the physical sciences, social sciences, and economics.  Terms: S18, F17 </span> 
 
 <br><br>
 
-## Upward Bound (at Ivy Tech Community College) 
 
-**Primary Instructor**
+**Upward Bound (at Ivy Tech Community College) **
 
 - Sports Statistics     
 <span class="desc">Introductory course in statistics.  In this course we focus on statistical concepts that can be applied to major league sports, especially baseball.  This class is ideal for fantasy sports enthusiasts, math nerds, and those curious about the world around them. We focus on descriptive statistics, organizing and presenting data.  We introduce basic inferential statistics such a simple linear regression. Term: Su18</span> 

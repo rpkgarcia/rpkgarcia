@@ -29,7 +29,7 @@ output:
 <img src="images/selfie_circle.jpg" width="300"/>
 
 
-<a href="CVKurtzGarcia.pdf"><img src="images/logo/download.png" alt="Download My CV" style="width:32px;height:32px;"> Download My CV</a>
+<a href="CV_KurtzGarcia_June2024.pdf"><img src="images/logo/download.png" alt="Download My CV" style="width:32px;height:32px;"> CV (Summer 2024)</a>
 <br>
 <br>
 <a href="https://github.com/rpkgarcia"><img src="images/logo/github.png" alt="HTML tutorial" style="width:32px;height:32px;">  GitHub</a>
@@ -47,11 +47,11 @@ rebeccakurtz62\@gmail.com
 <br> 
 <br> 
 
-**Office:** 
-
+**Office:**   
+Burton 315   
 900 University Ave. <br> 
 Olmsted Hall 1108  <br> 
-Riverside, CA 92521
+Northampton, MA 92521
 
 
 </a>
