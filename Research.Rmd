@@ -23,13 +23,13 @@ output: html_document
 
 - **Kurtz-Garcia, R. P.**, Flegal, J., *Inference Optimal Long Run Variance Estimation with Lugsail Kernels*. To be submitted to Bernoulli. 
 
-- **Kurtz-Garcia, R. P.**. *Testing Optimal Bandwidth for Zero Lugsail Estimators*. <a href="https://escholarship.org/uc/item/6b3263wc">(Disseration)</a>.
+- **Kurtz-Garcia, R. P.** (2023). *Testing Optimal Bandwidth for Zero Lugsail Estimators*. <a href="https://escholarship.org/uc/item/6b3263wc">(Disseration)</a>.
 
 - Flegal, James M., and **Rebecca P. Kurtz-Garcia**.(2024). *Implementing MCMC: Multivariate estimation with confidence.*<a href="https://arxiv.org/abs/2408.15396">(arXiv preprint arXiv:2408.15396)</a>.
 
 - Pickerill, E. S., **Kurtz, R. P.**, Tharp, A., Guerrero Sanz, P., Begum, M., & Bernstein, D. A. (2019). *[Pseudouridine synthase 7 impacts Candida albicans rRNA processing and morphological plasticity](ResearchDocuments/Yeast2019.pdf)*. Yeast, 36(11), 669-677.
 
-- **Kurtz, R. P.** (2018). *Reality Competition Programs: Are You In Or Are You Out?*. [Masters Thesis](ResearchDocuments/R Kurtz Final.pdf). 
+- **Kurtz, R. P.** (2018). *Reality Competition Programs: Are You In Or Are You Out?*. ([Masters Thesis](ResearchDocuments/R Kurtz Final.pdf)). 
 
 - Patrick, J., Haniyur, S., **Kurtz, R. P.**, Nakano, B. & Tse, L.(2016). *[Solar Irradiance Covariance Modeling for Sacramento County](ResearchDocuments/RTG_1_Poster.pdf)*. Undergraduate research project funded by NSF. 
 
